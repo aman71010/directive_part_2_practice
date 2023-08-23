@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'directive-part-2';
+  oddNumbers = [1,3,5,7,9];
 }

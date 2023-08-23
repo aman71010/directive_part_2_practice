@@ -1,3 +1,7 @@
 <p appBasicHighlight>our own directive!</p>
 
-<p appBetterHighlight>better way to create directive!</p>
+<p appBetterHighlight [defaultColor]="'yellow'" [highlightColor]="'lightblue'">better way to create directive!</p>
+
+<div>
+    <p *ngFor="let oddNumber of oddNumbers"> odd number - {{ oddNumber }} </p>
+</div>
